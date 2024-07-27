@@ -1,6 +1,6 @@
-import './StudentSignIn.css'
+import './SignIn.css'
 
-function StudentSignIn() {
+function SignIn() {
 
     return (
         <>
@@ -8,11 +8,11 @@ function StudentSignIn() {
                 <section className="section-content">
                     <h1>Sign In</h1>
                     <button>
-                        <i class="fa-brands fa-google"></i>
+                        <i className="fa-brands fa-google"></i>
                         <p>Continue with Google</p>
                     </button>
                     <button>
-                        <i class="fa-brands fa-facebook"></i>
+                        <i className="fa-brands fa-facebook"></i>
                         <p>Continue with Facebook</p>
                     </button>
 
@@ -32,4 +32,4 @@ function StudentSignIn() {
     )
 }
 
-export default StudentSignIn;
+export default SignIn;

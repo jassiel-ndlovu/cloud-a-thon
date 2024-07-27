@@ -3,7 +3,8 @@ header {
     left: 0;
     font-family: 'Atkinson Hyperlegible';
     background-color: white;
-    padding: 1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -18,11 +19,11 @@ header {
 
 .div-logo i {
     font-size: 2rem;
-    color: #efb11d;
+    color: black;
 }
 
 .div-logo h1 {
-    color: #efb11d;
+    color: black;
 }
 
 .div-buttons {
@@ -52,12 +53,9 @@ header button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
 
-.sign-in {
-    background-color: lightgray;
-}
-
+.sign-in,
 .sign-up {
-    background-color: #efb11d;
+    background-color: rgb(243, 241, 241);
 }
 
 /* -------------------------------------------------- */
@@ -71,23 +69,27 @@ main {
 }
 
 main h1 {
-    font-size: 4.3rem;
+    color: #efb11d;
+    font-size: 4rem;
+    padding: 0;
+    /* font-family: 'Playfair Display'; */
 }
 
 .section-image {
-    padding: 1rem;
-    width: 70%;
-    height: 400px;
+    margin: 1rem;
+    width: 100%;
+    height: 200px;;
 }
 
 .img-intro {
     width: 100%;
     height: 100%;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     object-fit: cover;
 }
 
 .section-verified-tutors {
+    background-color: white;
     width: 100%;
     padding: 1rem;
     font-size: 1rem;
@@ -104,6 +106,7 @@ main h1 {
 }
 
 .section-intro {
+    background-color: white;
     width: 80%;
 }
 
