@@ -1,0 +1,129 @@
+header {
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    font-family: 'Atkinson Hyperlegible';
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
+}
+
+.div-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-logo i {
+    font-size: 2rem;
+    color: #efb11d;
+}
+
+.div-logo h1 {
+    color: #efb11d;
+}
+
+.div-buttons {
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    color: black;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+header button:hover {
+    border-color: black;
+}
+
+header button:focus,
+header button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.tutor-sign-in {
+    background-color: lightgray;
+}
+
+.student-sign-in {
+    background-color: #efb11d;
+}
+
+/* -------------------------------------------------- */
+
+main {
+    font-family: 'Atkinson Hyperlegible';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    font-size: 4.3rem;
+}
+
+.section-image {
+    padding: 1rem;
+    width: 70%;
+    height: 400px;
+}
+
+.img-intro {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.section-verified-tutors {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    width: 90%;
+    border-bottom: 1px solid lightgray;
+}
+
+.section-intro {
+    width: 80%;
+}
+
+.section-intro article h3 {
+    font-family: 'Playfair Display';
+}
+
+.div-card-list {
+    padding: 1rem;
+}
+
+/* ---------------------------------------------------- */
+
+footer {
+    font-family: 'Atkinson Hyperlegible';
+    height: 80px;
+    background-color: #efb11d;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
