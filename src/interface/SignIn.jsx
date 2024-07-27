@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import './SignIn.css'
 
 function SignIn() {
@@ -18,13 +19,16 @@ function SignIn() {
 
                     <div>Or</div>
 
-                    <input placeholder="Enter your username" />
-                    <input placeholder="Enter your password" />
-                    <button className='btn-signin'>Sign In</button>
+                    <input placeholder="Username" />
+                    <input placeholder="Password" />
+
+                    <NavLink className="signin-nav-link" to="/studentdashboard">
+                        <button className='btn-signin'>Sign In</button>
+                    </NavLink>
                     
                     <div className="signup">
                         <p>Don't have an account? </p>
-                        <a href="#">Sign Up.</a>
+                        <a href="/signup">Sign Up.</a>
                     </div>
                 </section>
             </main>

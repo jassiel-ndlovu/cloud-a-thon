@@ -1,4 +1,4 @@
-.section-content {
+.signup-section-content {
     font-family: 'Atkinson Hyperlegible';
     display: flex;
     flex-direction: column;
@@ -13,10 +13,9 @@
     background-color: #fff;
 }
 
-.section-content input,
-.section-content button {
+.signup-section-content input,
+.signup-section-content button {
     font-family: 'Atkinson Hyperlegible';
-    width: 80%;
     padding: 10px;
     margin: 10px 0;
     border-radius: 4px;
@@ -24,54 +23,68 @@
     box-sizing: border-box;
 }
 
-.section-content h1 {
+.signup-section-content h1 {
+    color: black;
     font-family: 'Atkinson Hyperlegible';
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 
-.section-content button {
+.signup-section-content input {
+    width: 80%;
+}
+
+.signup-section-content button {
     background-color: rgba(red, green, blue, 0.7);
     color: black;
     border: none;
     cursor: pointer;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.section-content button p {
+.signup-section-content button p {
     font-size: 0.9rem;
 }
 
-.section-content button i {
+.signup-section-content button i {
     font-size: 1.4rem;
 }
 
-.section-content button:hover {
+.signup-section-content button:hover {
     background-color: lightgray;
 }
 
-.signup {
+.signup-div-buttons {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signin {
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
 
-.signup a {
+.signin a {
     color: #efb11d;
     margin-left: 5px;
     text-decoration: none;
 }
 
-.signup a:hover {
+.signin a:hover {
     text-decoration: underline;
 }
 
-.btn-signin {
+.btn-signup {
+    width: 80%;
     background-color: #efb11d;
 }
 
-.signin-nav-link {
+.signup-nav-link {
     width: 100%;
     text-decoration: none;
     display: flex;

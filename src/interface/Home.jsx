@@ -21,7 +21,9 @@ function Home() {
                     <NavLink to="/signin">
                         <button className="sign-in">Sign In</button>
                     </NavLink>
-                    <button className="sign-up">Sign Up</button>
+                    <NavLink to="/signup">
+                        <button className="sign-up">Sign Up</button>
+                    </NavLink>
                 </div>
             </header>
             <main>
