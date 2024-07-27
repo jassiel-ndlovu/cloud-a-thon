@@ -1,0 +1,76 @@
+.section-content {
+    font-family: 'Atkinson Hyperlegible';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.section-content input,
+.section-content button {
+    font-family: 'Atkinson Hyperlegible';
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.section-content h1 {
+    font-size: 2.4rem;
+}
+
+.section-content button {
+    background-color: rgba(red, green, blue, 0.7);
+    color: black;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-content button p {
+    font-size: 0.9rem;
+}
+
+.section-content button i {
+    font-size: 1.4rem;
+}
+
+.section-content button:hover {
+    background-color: lightgray;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.signup a {
+    color: #efb11d;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+.btn-signin {
+    background-color: #efb11d;
+}
+
+input::placeholder,
+input {
+    font-size: 0.9rem;
+}

@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import Card from '../components/Card'
 import CardList from '../components/CardList';
 import './Home.css'
@@ -14,18 +15,20 @@ function Home() {
         <>
             <header>
                 <div className='div-logo'>
-                    <i class="fa-solid fa-earth-africa"/>
+                    <i className="fa-solid fa-earth-africa"/>
                     <h1>TutorSphere</h1>
                 </div>
                 <div className='div-buttons'>
-                    <button className="tutor-sign-in">Sign In as Tutor</button>
-                    <button className="student-sign-in">Sign in as Student</button>
+                    <NavLink to="/tutor-sign-in">
+                        <button className="sign-in">Sign In</button>
+                    </NavLink>
+                    <button className="sign-up">Sign Up</button>
                 </div>
             </header>
             <main>
                 <h1>Learning <em>Re-invented</em></h1>
                 <section className='section-image'>
-                    <img src='https://i.pinimg.com/originals/bd/ac/e5/bdace58b6f58933e6f8003a2e9a33db0.jpg' alt='image' className='img-intro'></img>
+                    <img src='https://img.freepik.com/free-photo/virtual-classroom-study-space_23-2149178642.jpg?t=st=1722091236~exp=1722094836~hmac=0aada5c76fd58a2e11f81293872f6eb6ffe77432465c79c76a0d157c271df063&w=1060' alt='image' className='img-intro'></img>
                 </section>
                 
                 

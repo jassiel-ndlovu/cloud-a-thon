@@ -1,5 +1,4 @@
 header {
-    /* position: relative; */
     top: 0;
     left: 0;
     font-family: 'Atkinson Hyperlegible';
@@ -27,7 +26,7 @@ header {
 }
 
 .div-buttons {
-    min-width: 350px;
+    min-width: 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -53,11 +52,11 @@ header button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
 
-.tutor-sign-in {
+.sign-in {
     background-color: lightgray;
 }
 
-.student-sign-in {
+.sign-up {
     background-color: #efb11d;
 }
 
