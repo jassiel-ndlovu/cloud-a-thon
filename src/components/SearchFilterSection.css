@@ -1,0 +1,23 @@
+.search-filter-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-bar {
+    flex: 3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+
+.filter-select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}

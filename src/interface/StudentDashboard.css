@@ -1,0 +1,62 @@
+.db-student-header {
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.db-student-header-logo {
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.db-student-header-logo i {
+    font-size: 1.4rem;
+}
+
+.db-student-credentials {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.db-student-credentials h3 {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.db-user-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: lightgrey;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+}
+
+.db-student-user {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.db-student-h3-enrolled,
+.db-student-h3-find {
+    padding-left: 4rem;
+    font-weight: 100;
+}
+
+.db-student-section-enrolled-courses {
+    width: 100%;
+}
+
+.db-student-search-courses {
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    border-radius: 1rem;
+}

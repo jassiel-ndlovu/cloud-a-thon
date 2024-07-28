@@ -1,0 +1,51 @@
+.course-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; 
+}
+
+.course-card:hover {
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.course-card:active {
+    border-color: black;
+}
+
+.course-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.course-details {
+    padding: 10px;
+}
+
+.course-name {
+    font-size: 18px;
+    margin: 0;
+}
+
+.tutor-info {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.tutor-name {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.verification-icon {
+    width: 16px;
+    height: 16px;
+}
